@@ -1,0 +1,13 @@
+.su-img-reference-wrapper{
+    border-right:1px solid #fff;
+}
+.su-img-reference-wrapper img{
+    width:100%;
+    display:block;
+    margin:auto;
+}
+@media screen and (min-width:768px){
+    .su-img-reference-wrapper img{
+        width: 235px;
+    }
+}

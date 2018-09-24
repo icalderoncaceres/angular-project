@@ -1,0 +1,57 @@
+.login-right-wrapper{
+    padding:0rem;
+}
+.login-right-wrapper .login-right-container{
+    padding: 0rem 0rem 2.4rem 0rem;
+}
+.login-right-wrapper .login-right-container .social-net h3{
+    margin: 1.5rem auto;
+    text-align:center;
+    font-weight:bold;
+}
+.login-right-wrapper .login-right-container .social-net p{
+    font-size:1rem;
+    display:none;
+}
+.login-right-wrapper .login-right-container .social-net .social-icons-container{
+    margin: 1.5rem auto;
+    display: table;
+}
+.login-right-wrapper .login-right-container .social-net .social-icons-container .sn-ico{
+    display: table-cell;
+    padding: 0rem 1.2rem;
+}
+.login-right-wrapper .login-right-container .social-net .social-icons-container .sn-ico a i{
+    font-size:1.8rem;
+    color:#fff;
+}
+.login-right-wrapper .login-right-container .social-net .social-icons-container .sn-ico a i:hover{
+    color: #dae0e5
+}
+.login-right-wrapper .login-right-container .social-net button{
+    background:#fff;
+    color:#008DD8;
+}
+.login-right-wrapper .login-right-container .social-net button:hover{
+    background:#f4f4f4;
+}
+
+@media screen and (min-width:768px){
+    .login-right-wrapper{
+        padding:2.4rem;
+    }
+    .login-right-wrapper .login-right-container{
+        padding: 2.4rem;
+        background:rgba(0,0,0,0.1);
+    }
+    .login-right-wrapper .login-right-container .social-net p{
+        margin: 2.5rem auto;
+        display:block;
+    }
+    .login-right-wrapper .login-right-container .social-net h3{
+        margin: 0rem auto 3rem;
+    }
+    .login-right-wrapper .login-right-container .social-net .social-icons-container{
+        margin: 2.5rem auto;
+    }
+}

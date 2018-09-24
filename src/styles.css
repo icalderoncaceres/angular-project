@@ -1,0 +1,50 @@
+/**********reset html tags*************/
+
+html{
+    margin:0;
+    padding:0;
+}
+a{
+    display:block;
+}
+/**********theme containers*************/
+.wrapper-container{
+    display: table;
+    min-height: 100vh;
+}
+.container-content{
+    display:table-cell;
+}
+.middle-position{
+    vertical-align: middle;
+}
+
+/**********theme btn behavior*************/
+.cta-position{
+    display:block;
+    margin:0 auto;
+}
+
+/**************logo****************/
+.logo-app img{
+    width:10rem;
+    height:auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/**************help link****************/
+.help{
+    text-align: center;
+    margin:5rem 0rem 0rem;
+}
+
+.help i{
+    margin-right:5px;
+}
+@media screen and (min-width:768px){
+    /**************help link****************/
+    .help{
+        text-align: right;
+    }
+}

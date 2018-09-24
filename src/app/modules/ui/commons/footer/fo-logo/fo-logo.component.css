@@ -1,0 +1,7 @@
+img{
+    width:110px;
+    display: block;
+    margin: 0px auto 20px;
+    -webkit-filter: contrast(50%); /* Safari 6.0 - 9.0 */
+    filter: contrast(50%);
+}

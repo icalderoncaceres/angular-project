@@ -1,0 +1,17 @@
+<div class="container-fluid login-right-wrapper">
+    <div class="login-right-container">
+        <h1 class="text-light my-3 text-museo">Bienvenido, miles de ofertas te esperan</h1>
+        <form method="post" role="form" id="form_login">
+            <div _ngcontent-c8="" class="form-group mt-md-5">
+                <span *ngIf="this.generalResponse.apiError">
+                    <label style="color: #cc2424">{{generalResponse.apiError.messageUser}}</label>
+                </span>
+                <input id="email" class="form-control" [(ngModel)]="loginUserDto.username" type="text" pInputText ng-minlength="6" ng-maxlength="10"
+                    placeholder="Correo Electrónico" autocomplete="off" [ngModelOptions]="{standalone: true}">
+                <input id="password" class="form-control" [(ngModel)]="loginUserDto.password" type="password" pInputText ng-minlength="6"
+                    ng-maxlength="10" placeholder="Contraseña" autocomplete="off" [ngModelOptions]="{standalone: true}">
+                <button pButton type="button" label="Iniciar Sesión" (click)="loginUser();" class="my-4 btn btn-primary cta-position"></button>
+            </div>
+        </form>
+    </div>
+</div>

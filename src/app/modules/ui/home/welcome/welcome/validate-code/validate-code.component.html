@@ -1,0 +1,21 @@
+<div class="container-fluid login-right-wrapper">
+  <div class="login-right-container">
+    <h1 class="text-light my-3 text-museo">Bienvenido, miles de ofertas te esperan</h1>
+    <div _ngcontent-c8="" class="form-group mt-md-5">
+      <span *ngIf="generalResponse">
+        <label>Hola Mundo</label>
+      </span>
+      <input id="prospectCode" class="form-control login-form-style" type="text" pInputText [(ngModel)]="code" ng-minlength="6"
+        ng-maxlength="10" placeholder="Registra tu código">
+      <button pButton type="button" label="Enviar" (click)="validateCode();" class="my-4 btn btn-primary cta-position"></button>
+    </div>
+    <div class="buttons-container">
+      <button pButton type="button" label="SOLICITAR MI CÓDIGO" class="btn btn-outline-light cta-position"></button>
+      <p class="text-light mt-4">¿Ya tienes una cuenta?</p>
+      <button pButton type="button" label="INGRESA AQUÍ" class="btn btn-outline-light my-2 cta-position" (click)="btnLogin();"></button>
+    </div>
+    <div class="help">
+      <a class="text-light" href="#"><i class="fas fa-question-circle"></i>¿Tienes problemas con tu código?</a>
+    </div>
+  </div>
+</div>

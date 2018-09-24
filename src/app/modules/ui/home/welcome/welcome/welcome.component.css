@@ -1,0 +1,15 @@
+.login-wrapper{
+    width:100%;
+    min-height:640px;
+    background:url("../../../../../../assets/themepuro/img/bg-login-desk.png") no-repeat center;
+    background-size: cover;
+}
+.login-wrapper .wrapper-container {
+    min-height: 0;
+}
+
+@media screen and (min-width:768px){
+    .login-wrapper .wrapper-container {
+        min-height: 100vh;
+    }
+}

@@ -1,0 +1,18 @@
+.su-top-content-wrapper .logo-app{
+    padding: 3rem 0rem 1rem;
+    border-bottom: 1px solid #fff;
+}
+.su-top-content-wrapper .logo-app img{
+    width:150px;
+}
+.su-top-content-wrapper .logo-app h1{
+    text-align:center;
+    margin: 1rem auto;
+}
+
+@media screen and (min-width:768px){
+    .su-top-content-wrapper .logo-app{
+        padding:3rem auto;
+        border:none;
+    }
+}

@@ -1,0 +1,23 @@
+.wrapper-slide-show{
+    padding:45px 45px 0px;
+}
+
+/**************slider****************/
+.wrapper-slide-show .slides-login .carousel .carousel-inner .carousel-item p{
+    text-align:center;
+}
+.wrapper-slide-show .slides-login .carousel .carousel-indicators{
+    position: inherit;;
+}
+.wrapper-slide-show .slides-login .carousel .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius:100%;
+}
+
+@media screen and (min-width:768px){
+    .wrapper-slide-show{
+        padding:100px 45px;
+        border-right:1px solid #fff;
+    }
+}

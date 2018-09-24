@@ -1,0 +1,35 @@
+.login-right-wrapper .login-right-container{
+    padding:0rem 0rem 2.4rem;
+}
+.login-right-wrapper .login-right-container .text-museo{
+    font-weight:bold;
+}
+.login-right-wrapper .login-right-container button{
+    min-width:252px;
+}
+.login-right-wrapper .login-right-container .form-control{
+    background-color: rgb(255, 255, 255);
+    color:#555555;
+}
+.login-right-wrapper .login-right-container .form-controlfocus{
+    background-color:rgb(255, 255, 255);
+    color:#555555;
+}
+.login-right-wrapper .login-right-container .buttons-container{
+    margin-top:4rem;
+}
+.login-right-wrapper .login-right-container .buttons-container p{
+    text-align:center;
+}
+.login-right-wrapper .login-right-container .buttons-container button:first-child{
+    margin-top:4rem;
+}
+
+@media screen and (min-width:768px){
+    .login-right-wrapper .login-right-container{
+        padding:2.4rem;
+    }
+    .login-right-wrapper .login-right-container .buttons-container{
+        margin-top:5rem;
+    }
+}
